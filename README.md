@@ -6,6 +6,7 @@ A wide range of applications can be found under Computer Vision such as video su
 
 ![Overview of ComputerVision](/resources/Overview_of_Computer_Vision.png)
 
+# Task List
 In this project, we will explore various techniques and related problems in the field of Computer Vision. We will focus on different Neural Network methods for Gesture Recognition. With this, we address the questions: 
 * How accurate does Neural Network-based Computer Vision models predict identify Gesture Pattern?
 * How Time Series Classification using Neural Network helps to recognize the Gestures? 
