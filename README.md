@@ -46,5 +46,7 @@ In this project, we will explore various techniques and related problems in the 
 
 # Final Results on 2D gesture data
 
-* After performing several experiments using different neural network models such as COnvolutional Neural Network(CNN), Long Short term Memory(LSTM), CNN LSTM, we found that using Leaky-Relu activation function with Conv LSTM Neural Network Model can provide good accuracy test results.  
+* After performing several experiments using different neural network models such as Convolutional Neural Network(CNN), Long Short term Memory(LSTM), CNN LSTM, we found that using Leaky-Relu activation function with Conv LSTM Neural Network Model can provide good accuracy test results.
+
+![2D_gesture_data_experiment_result](/resources/2D_gesture_data_experiment_result.png)
  
