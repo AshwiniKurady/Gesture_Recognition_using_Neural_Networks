@@ -56,6 +56,5 @@ In this project, we will explore various techniques and related problems in the 
 * Using spherical coordinates to capture the motion from sequential frames of each gesture.
        $$Radical distance: √(𝑥2 + 𝑦2 + 𝑧2)$$
        $$Polar angle(𝜃) :$$![image](https://github.com/AshwiniKurady/Gesture_Recognition_using_Neural_Networks/assets/70343787/ce4be729-3762-49a3-bedd-85aabbb150cf)
-$$
        $$Angular velocity (𝜙):tan! $!'#! ,𝑧≠0%& , 𝑧 = 0$$
  
