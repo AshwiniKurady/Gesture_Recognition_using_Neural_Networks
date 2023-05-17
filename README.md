@@ -41,4 +41,6 @@ In this project, we will explore various techniques and related problems in the 
         $$Polar angle: 𝜃 = tan-1(y/x)$$
         $$Angular velocity: 𝜔 = 𝛿𝜃$$
         $$Acceleration: 𝑎 = 𝛿𝜔 𝛿𝑡$$
+
+![calculating_polarAngle_angularVelocity_acceleration](/resources/calculating_polarAngle_angularVelocity_acceleration.png)
  
