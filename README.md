@@ -31,6 +31,14 @@ In this project, we will explore various techniques and related problems in the 
 * Took origin as Nose point as it remained approximately constant for all gestures. By making this change, though the relative measure remains the same, calculating with respect to the object position can be easy to refer back while applying complex methods.
 * Stored the coordinates of 17 joint positions of each image frame in an array representative form.
 
-# Temporal Difference Method:
+# Preprocessing on 2D gesture data:
 
-* Temporal difference is a frame differencing based method using any mathematical measures to identify motion between the sequence of frames. 
+* Approach used: Temporal difference is a frame differencing based method using any mathematical measures to identify motion between the sequence of frames.
+* Each gesture contains keypoints(x, y) for their joint positions.
+* Calculating polar coordinates and angular velocity to capture the movement data over time.
+* To convert from Cartesian to Polar coordinate system:
+        $$ Radical distance: r = √𝑥2+y2 $$
+        Polar angle: 𝜃 = tan-1(y/x) 
+        Angular velocity: 𝜔 = 𝛿𝜃 
+        Acceleration: 𝑎 = 𝛿𝜔 𝛿𝑡
+ 
