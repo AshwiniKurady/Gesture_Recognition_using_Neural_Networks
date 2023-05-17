@@ -43,4 +43,8 @@ In this project, we will explore various techniques and related problems in the 
         $$Acceleration: 𝑎 = 𝛿𝜔 𝛿𝑡$$
 
 ![calculating_polarAngle_angularVelocity_acceleration](/resources/calculating_polarAngle_angularVelocity_acceleration.png)
+
+# Final Results on 2D gesture data
+
+* After performing several experiments using different neural network models such as COnvolutional Neural Network(CNN), Long Short term Memory(LSTM), CNN LSTM, we found that using Leaky-Relu activation function with Conv LSTM Neural Network Model can provide good accuracy test results.  
  
