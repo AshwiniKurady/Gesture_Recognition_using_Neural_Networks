@@ -49,4 +49,12 @@ In this project, we will explore various techniques and related problems in the 
 * After performing several experiments using different neural network models such as Convolutional Neural Network(CNN), Long Short term Memory(LSTM), CNN LSTM, we found that using Leaky-Relu activation function with Conv LSTM Neural Network Model can provide good accuracy test results.
 
 ![2D_gesture_data_experiment_result](/resources/2D_gesture_data_experiment_result.png)
+
+# Preprocessing on 3D gesture data:
+
+* Each gesture contains keypoints for their joint positions where each joint position is represented by (x, y, z) coordinates.
+* Using spherical coordinates to capture the motion from sequential frames of each gesture.
+       $$Radical distance: √(𝑥2 + 𝑦2 + 𝑧2)$$
+       $$Polar angle(𝜃) : )tan!" #$ , 𝑥 ≠ 0 %& , 𝑥 = 0$$
+       $$Angular velocity (𝜙):tan! $!'#! ,𝑧≠0%& , 𝑧 = 0$$
  
