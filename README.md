@@ -38,7 +38,7 @@ In this project, we will explore various techniques and related problems in the 
 * Calculating polar coordinates and angular velocity to capture the movement data over time.
 * To convert from Cartesian to Polar coordinate system:
         $$Radical distance: r = √𝑥2+y2$$
-        Polar angle: 𝜃 = tan-1(y/x) 
-        Angular velocity: 𝜔 = 𝛿𝜃 
-        Acceleration: 𝑎 = 𝛿𝜔 𝛿𝑡
+        $$Polar angle: 𝜃 = tan-1(y/x)$$
+        $$Angular velocity: 𝜔 = 𝛿𝜃$$
+        $$Acceleration: 𝑎 = 𝛿𝜔 𝛿𝑡$$
  
