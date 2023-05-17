@@ -28,4 +28,7 @@ In this project, we will explore various techniques and related problems in the 
 
 ![Keypoints and labels for sample gesture image](/resources/Keypoints_and_labels_for_sample_gesture_image.png)
 
+* Took origin as Nose point as it remained approximately constant for all gestures. By making this change, though the relative measure remains the same, calculating with respect to the object position can be easy to refer back while applying complex methods.
+* Stored the coordinates of 17 joint positions of each image frame in an array representative form.
+
 
