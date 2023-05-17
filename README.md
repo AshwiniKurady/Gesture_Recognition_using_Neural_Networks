@@ -44,7 +44,7 @@ In this project, we will explore various techniques and related problems in the 
 
 ![calculating_polarAngle_angularVelocity_acceleration](/resources/calculating_polarAngle_angularVelocity_acceleration.png)
 
-# Final Results on 2D gesture data
+# Experimental Observation on 2D gesture data
 
 * After performing several experiments using different neural network models such as Convolutional Neural Network(CNN), Long Short term Memory(LSTM), CNN LSTM, we found that using Leaky-Relu activation function with Conv LSTM Neural Network Model can provide good accuracy test results.
 
@@ -57,4 +57,13 @@ In this project, we will explore various techniques and related problems in the 
 * To calculate the movement in gestures, we store (r, 𝜙, 𝜃) for each joint instead of (x,y,z) coordinates.
 
 ![spherical_coordinate](/resources/spherical_coordinate.png)
+
+# Experimental Observation on 3D gesture data
+
+* Applying Conv LSTM model on 9 gestures and for 6 joint positions of each of the gestures and keeping frame length to be 30.
+* train/test split of the 9 gestures data with 75% for training and 25% for testing.
+* Average test accuracy is ~ 50%.
+* Drop in accuracy can be considered as a normal behavior because of increase in the input size for the model.
+* Being able to reduce the noise in the data and experimenting the model with different parameters can still outperform 2D model.
+
  
