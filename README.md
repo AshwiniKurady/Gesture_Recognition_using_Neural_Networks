@@ -65,6 +65,7 @@ In this project, we will explore various techniques and related problems in the 
 * Average test accuracy is ~ 50%.
 * Drop in accuracy can be considered as a normal behavior because of increase in the input size for the model.
 * Being able to reduce the noise in the data and experimenting the model with different parameters can still outperform 2D model.
+
 ![3D_gesture_data_experiment_result](/resources/3D_gesture_data_experiment_result.png)
 
 
