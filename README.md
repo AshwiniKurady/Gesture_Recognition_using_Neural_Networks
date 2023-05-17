@@ -14,8 +14,10 @@ In this project, we will explore various techniques and related problems in the 
 
 # Dataset
 
-* we experiment on implementing a Deep Learning model combining visual features and temporal features in the data.
+* To experiment on implementing a Deep Learning model combining visual features and temporal features in the data.
 * To train the model, we used a Gesture Commands for Robot Interaction Dataset (GRIT) Dataset. 
 * This corpus contains nine Human-Robot Interaction (HRI) command gestures. The nine activities are as follows: Abort, Circle, Hello, No, Stop, Turn Right, Turn Left, and Warn. 
-* Six different subjects participated to gesture. Each of them performed the same gesture at least 10 times. A total of 543 sequences were recorded. 
+* Six different subjects participated to gesture. Each of them performed the same gesture at least 10 times. A total of 543 sequences were recorded.
+
+![Gestures in GRIT Dataset](/resources/GRIT_dataset_gestures.png)
 
