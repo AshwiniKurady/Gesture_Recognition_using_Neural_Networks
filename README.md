@@ -31,4 +31,6 @@ In this project, we will explore various techniques and related problems in the 
 * Took origin as Nose point as it remained approximately constant for all gestures. By making this change, though the relative measure remains the same, calculating with respect to the object position can be easy to refer back while applying complex methods.
 * Stored the coordinates of 17 joint positions of each image frame in an array representative form.
 
+# Temporal Difference Method:
 
+* Temporal difference is a frame differencing based method using any mathematical measures to identify motion between the sequence of frames. 
