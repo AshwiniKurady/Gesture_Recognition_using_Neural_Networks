@@ -21,3 +21,10 @@ In this project, we will explore various techniques and related problems in the 
 
 ![Gestures in GRIT Dataset](/resources/GRIT_dataset_gestures.png)
 
+# Exploratory Data Analysis(EDA)
+
+* The structure of the dataset is that there are 9 gestures, and each gesture has approximately 60 samples and each sample has approximately 24 timesteps [60X24X9]
+* The dataset has array representation of each frame. From these, we were able to extract the coordinate points and draw the ellipse points on the image as shown below:
+
+![Keypoints and labels for sample gesture image](/resources/Keypoints_and_labels_for_sample_gesture_image)
+
